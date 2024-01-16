@@ -6,7 +6,7 @@ export default function MyPortfolio() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           {/* <p className="sub--title">My portfolio</p> */}
-          <h2 className="portfolio--section--heading">Some of my projects</h2>
+          <h2 className="portfolio--section--heading">Here are some of my projects</h2>
         </div>
         <div>
           <button
@@ -30,7 +30,9 @@ export default function MyPortfolio() {
               </div>
               <p className="text-sm portfolio--link">
                 <i className="fa-brands fa-github"></i>
-                {item.link}
+                <a href={item.link} target="_blank">
+                  Show me on GitHub
+                </a>
               </p>
             </div>
           </div>

@@ -34,11 +34,9 @@ export default function AboutMe() {
             excellent human relations.
             <br />
             <br />
-            <blockquote >
-                "חיוך לא עולה כסף אבל שווה זהב"
-            </blockquote>
           </p>
         </div>
+        <p className="quote">"חיוך לא עולה כסף אבל שווה זהב"</p>
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ export default function HeroSection() {
               gilgiv@gmail.com
             </h5>
             <h5>
-              <i class="icons-class fa-brands fa-linkedin"></i>
+              <i className="icons-class fa-brands fa-linkedin"></i>
               <a
                 href="https://www.linkedin.com/in/gili-givoni-48171530/"
                 target="_blank"

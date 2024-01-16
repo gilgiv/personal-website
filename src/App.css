@@ -351,12 +351,12 @@ h3 {
   border-radius: 20%;
 }
 
-blockquote{
-    text-align: center;
-    color: darkblue;
-    font-style: italic;
-    font-size: large;
-    font-weight: 400;
+.quote {
+  text-align: center;
+  color: darkblue;
+  font-style: italic;
+  font-size: large;
+  font-weight: 400;
 }
 
 /* My Portfolio */
@@ -385,9 +385,9 @@ blockquote{
 
 .portfolio--section--container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  gap: 42.6px;
+  gap: 30px;
   width: 100%;
 }
 
@@ -414,10 +414,10 @@ blockquote{
 
 .portfolio--section--card--content {
   display: flex;
-  padding: 32px;
+  padding: 16px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 16px;
   align-self: stretch;
 }
 
@@ -429,18 +429,19 @@ blockquote{
   text-decoration: none;
   display: flex;
   gap: 10px;
-  border-bottom: 1.33px solid var(--primary);
+  /* border-bottom: 1.33px solid var(--primary); */
   padding-bottom: 5px;
   font-weight: 600;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .portfolio--section--card:hover i {
   color: #006b6a;
 }
 
-.portfolio--section--heading{
-    color: darkblue;
+.portfolio--section--heading {
+  color: darkblue;
 }
 
 /* Portfolio Ends */

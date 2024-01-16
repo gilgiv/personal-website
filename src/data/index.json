@@ -29,23 +29,30 @@
         {
             "id": "1",
             "src": "./images/portfolio/weather_app.jpg",
-            "title": "project1",
-            "description": "Lorem ipsum dolor sit ...",
-            "link": "View in Github"
+            "title": "WeatherAppJS",
+            "description": "A weather application showing visual and textual weather info for any input city, using Html,CSS and JS",
+            "link": "https://github.com/gilgiv/WeatherAppJS.git"
         },
         {
             "id": "2",
-            "src": "./images/portfolio/weather_app.jpg",
-            "title": "project2",
-            "description": "Lorem ipsum dolor sit ...",
-            "link": "View in Github"
+            "src": "./images/portfolio/movieSearchApp.jpg",
+            "title": "MovieSearchApp",
+            "description": "This responsive web application uses OMDB Api, and HTML-CSS-JS in order to show details (including image) about every movie you search",
+            "link": "https://github.com/gilgiv/MovieSearchApp.git"
         },
         {
             "id": "3",
-            "src": "./images/portfolio/weather_app.jpg",
-            "title": "project3",
-            "description": "Lorem ipsum dolor sit ...",
-            "link": "View in Github"
+            "src": "./images/portfolio/space invaders.jpg",
+            "title": "SpaceInvadersJS",
+            "description": "This is a space invaders game web site, creates by HTML-CSS-JS",
+            "link": "https://github.com/gilgiv/SpaceInvadersJS.git"
+        },
+        {
+            "id": "4",
+            "src": "./images/portfolio/Customers_crud.jpg",
+            "title": "Customers_crud",
+            "description": "Asp.net core mvc web app demonstrating CRUD operations of customers",
+            "link": "https://github.com/gilgiv/Customers_crud.git"
         }
     ]
 }
