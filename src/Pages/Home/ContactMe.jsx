@@ -5,14 +5,18 @@ export default function ContactMe() {
         <p className="sub--title">Get in touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-          explicabo.
+          Feel free to reach out! Whether you're interested in my services, want
+          to collaborate, or simply want to say hello, I'd love to hear from
+          you.
         </p>
       </div>
-      <form className="contact--form--container">
+      <form
+        action="mailto:gilgiv@gmail.com"
+        className="contact--form--container"
+      >
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First name: </span>
+            <span className="text-md">First name: * </span>
             <input
               className="contact--input text-md"
               type="text"
@@ -30,47 +34,35 @@ export default function ContactMe() {
               id="last-name"
             />
           </label>
-          <label htmlFor="email" className="contact--label">
-            <span className="text-md">Email: </span>
-            <input
-              className="contact--input text-md"
-              type="email"
-              name="email"
-              id="email"
-              required
-            />
-          </label>
-          <label htmlFor="phone number" className="contact--label">
-            <span className="text-md">Phone number: </span>
+          <label htmlFor="phone" className="contact--label">
+            <span className="text-md">Phone: </span>
             <input
               className="contact--input text-md"
               type="text"
-              name="phone number"
-              id="phone number"
+              name="phone"
+              id="phone"
+            />
+          </label>
+          <label htmlFor="subject" className="contact--label">
+            <span className="text-md">Subject: * </span>
+            <input
+              className="contact--input text-md"
+              type="text"
+              name="subject"
+              id="subject"
+              required
             />
           </label>
         </div>
-        <label htmlFor="choose topic" className="contact--label">
-          <span className="text-md">Choose a topic: </span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select one...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message: </span>
           <textarea
             className="contact--input text-md"
             id="message"
-            rows="8"
+            name="body"
+            rows="5"
             placeholder="Type your message..."
           />
-        </label>
-        <label htmlFor="checkbox" className="checkbox--label">
-          <input type="checkbox" name="checkbox" id="checkbox" required />
-          <span className="text-sm">I accept the terms</span>
         </label>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
