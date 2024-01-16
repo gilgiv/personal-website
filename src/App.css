@@ -115,7 +115,7 @@ h3 {
 }
 
 .section--title {
-  color: var(--heading-color);
+  color: darkblue;
   font-size: 35px;
   text-align: center;
   font-style: normal;
@@ -314,7 +314,7 @@ h3 {
 }
 
 .skills--section--title {
-  color: var(--heading-color);
+  color: darkblue;
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
@@ -340,7 +340,7 @@ h3 {
 }
 
 .about--section--heading {
-  color: var(--primary);
+  color: darkblue;
 }
 
 .about--section--img {
@@ -437,6 +437,10 @@ blockquote{
 
 .portfolio--section--card:hover i {
   color: #006b6a;
+}
+
+.portfolio--section--heading{
+    color: darkblue;
 }
 
 /* Portfolio Ends */

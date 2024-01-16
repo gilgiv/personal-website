@@ -2,26 +2,26 @@
     "skills": [
         {
             "id": "1",
-            "src": "./images/product-chain-1.png",
+            "src": "./images/skills/front-end.png",
             "title": "Front-End",
-            "description": "HTML | CSS | JS | JQuery | Bootstrap | React"
+            "description": "HTML | CSS | JavaScript | Bootstrap  | JQuery | React"
         },
         {
             "id": "2",
-            "src": "./images/tag-1.png",
+            "src": "./images/skills/back-end.png",
             "title": "Back-End",
-            "description": "C# | Vb.net | Python | LINQ2Sql | WinForms"
+            "description": "C# | Vb.net | Python | LINQ2Sql | Web API | WinForms"
         },
         {
             "id": "3",
-            "src": "./images/feather-pen-2.png",
+            "src": "./images/skills/data.png",
             "title": "Data",
             "description": "SQL Server | MySql | XML | JSON | Excel | PDF | CSV"
         },
         {
             "id": "4",
-            "src": "./images/feather-pen-1.png",
-            "title": "Development frameworks",
+            "src": "./images/skills/frameworks.png",
+            "title": "Dev. frameworks",
             "description": "Asp.net MVC | Flask | .net framework | .net Core"
         }
     ],

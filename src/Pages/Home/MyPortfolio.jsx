@@ -5,8 +5,8 @@ export default function MyPortfolio() {
     <section id="MyPortfolio" className="portfolio--section">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">My portfolio</p>
-          <h2 className="section--heading">Some of my projects</h2>
+          {/* <p className="sub--title">My portfolio</p> */}
+          <h2 className="portfolio--section--heading">Some of my projects</h2>
         </div>
         <div>
           <button
