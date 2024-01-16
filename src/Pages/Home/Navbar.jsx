@@ -38,9 +38,9 @@ function Navbar() {
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
-        <span className="nav__hamburger_line"></span>
-        <span className="nav__hamburger_line"></span>
-        <span className="nav__hamburger_line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
@@ -110,7 +110,7 @@ function Navbar() {
         smooth={true}
         offset={-70}
         duration={500}
-        to="Contact"
+        to="ContactMe"
       >
         Contact Me
       </Link>

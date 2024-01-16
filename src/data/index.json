@@ -4,25 +4,48 @@
             "id": "1",
             "src": "./images/product-chain-1.png",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit ..."
+            "description": "HTML | CSS | JS | JQuery | Bootstrap | React"
         },
         {
             "id": "2",
             "src": "./images/tag-1.png",
             "title": "Back-End",
-            "description": "Lorem ipsum dolor sit ..."
+            "description": "C# | Vb.net | Python | LINQ2Sql | WinForms"
         },
         {
             "id": "3",
             "src": "./images/feather-pen-2.png",
-            "title": "UI and UX design",
-            "description": "Lorem ipsum dolor sit ..."
+            "title": "Data",
+            "description": "SQL Server | MySql | XML | JSON | Excel | PDF | CSV"
         },
         {
             "id": "4",
             "src": "./images/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "Lorem ipsum dolor sit ..."
+            "title": "Development frameworks",
+            "description": "Asp.net MVC | Flask | .net framework | .net Core"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./images/portfolio/weather_app.jpg",
+            "title": "project1",
+            "description": "Lorem ipsum dolor sit ...",
+            "link": "View in Github"
+        },
+        {
+            "id": "2",
+            "src": "./images/portfolio/weather_app.jpg",
+            "title": "project2",
+            "description": "Lorem ipsum dolor sit ...",
+            "link": "View in Github"
+        },
+        {
+            "id": "3",
+            "src": "./images/portfolio/weather_app.jpg",
+            "title": "project3",
+            "description": "Lorem ipsum dolor sit ...",
+            "link": "View in Github"
         }
     ]
 }

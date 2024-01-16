@@ -9,17 +9,31 @@ export default function HeroSection() {
             Software Developer
           </h1>
           <div className="hero--section--description">
-            <h4>
-              <i className="fa-solid fa-square-phone"></i>
+            <h5>
+              <i className="icons-class fa-solid fa-square-phone"></i>
               052-8875550
-            </h4>
-            <h4>
-              <i className="fa-solid fa-square-envelope"></i>
+            </h5>
+            <h5>
+              <i className="icons-class fa-solid fa-square-envelope"></i>
               gilgiv@gmail.com
-            </h4>
+            </h5>
+            <h5>
+              <i class="icons-class fa-brands fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/gili-givoni-48171530/"
+                target="_blank"
+              >
+                My linkedin
+              </a>
+            </h5>
           </div>
         </div>
-        <button className="btn btn-primary">Get in Touch</button>
+        <button
+          onClick={() => window.open("./docs/english cv.pdf")}
+          className="btn btn-outline-primary openCV-btn"
+        >
+          Open my CV
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./images/gili_main_img.jpg" alt="Hero Section" />
